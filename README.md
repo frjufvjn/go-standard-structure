@@ -6,8 +6,8 @@
 - main 브랜치의 "Allowed to force push"를 허용한다.
 ### mirror 실행
 ```bash
-git clone --mirror git@github.com:frjufvjn/go-standard-structure.git
-cd go-standard-structure.git
+git clone --mirror git@gitlab.scglab.com:jwpark7/go-standard-layout.git
+cd go-standard-layout.git
 git remote set-url --push origin ${신규_리파지토리_주소}
 git push --mirror
 ```
